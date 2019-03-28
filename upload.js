@@ -51,7 +51,7 @@ var uploader = Qiniu.uploader({
           	console.log(JSON.stringify(files))
               plupload.each(files, function(file) {
               	console.log('开始')
-                  // 文件添加进队列后，处理相关的事情
+                  // 文件添加进队列后，--处理相关的事情
 		//上传之前实现本地预览---将src直接导入video中(图片就导入图片中)
 				var fileItem = file.getNative(),
 			   url = window.URL || window.webkitURL || window.mozURL;
